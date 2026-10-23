@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "evolutionmobs",
+  "version": "${version}",
+  "name": "EvolutionMobs",
+  "description": "Mobs learn from their deaths and evolve!",
+  "authors": [
+    "Duulat"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.evolution.EvolutionMobs"
+    ]
+  },
+  "mixins": [
+    "evolutionmobs.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~26.2",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
